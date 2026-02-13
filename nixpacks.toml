@@ -8,4 +8,4 @@ cmds = ["pnpm install"]
 cmds = ["pnpm build"]
 
 [start]
-cmd = "pnpm db:push && node dist/index.js"
+cmd = "pnpm db:push && node dist/index-simple-v2.js"
