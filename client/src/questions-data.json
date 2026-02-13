@@ -1,0 +1,76 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "time": "00:00",
+      "timeLabel": "Midnight",
+      "category": "Welcome",
+      "question": "What are you most excited to discover about us today?",
+      "prompt": "Share your thoughts and feelings about starting this journey together."
+    },
+    {
+      "id": 2,
+      "time": "09:00",
+      "timeLabel": "Morning - 9 AM",
+      "category": "Dreams & Memories",
+      "question": "What's a dream you had recently that you remember?",
+      "prompt": "Describe the dream and what you think it might mean."
+    },
+    {
+      "id": 3,
+      "time": "11:00",
+      "timeLabel": "Late Morning - 11 AM",
+      "category": "Childhood",
+      "question": "What's your favorite childhood memory?",
+      "prompt": "Paint a picture of that moment - where were you, who was there, and why does it still make you smile?"
+    },
+    {
+      "id": 4,
+      "time": "13:00",
+      "timeLabel": "Afternoon - 1 PM",
+      "category": "Present Moment",
+      "question": "If you could share a meal with me right now, what would you want us to eat?",
+      "prompt": "Describe the food, the atmosphere, and what we'd talk about."
+    },
+    {
+      "id": 5,
+      "time": "15:00",
+      "timeLabel": "Mid Afternoon - 3 PM",
+      "category": "Values & Beliefs",
+      "question": "What's something you believe in deeply that shapes who you are?",
+      "prompt": "It could be a value, a philosophy, or a life lesson you hold close to your heart."
+    },
+    {
+      "id": 6,
+      "time": "17:00",
+      "timeLabel": "Evening - 5 PM",
+      "category": "Gratitude",
+      "question": "What's something small that happened recently that made you feel grateful?",
+      "prompt": "Sometimes the smallest moments hold the most meaning."
+    },
+    {
+      "id": 7,
+      "time": "19:00",
+      "timeLabel": "Night - 7 PM",
+      "category": "Us",
+      "question": "What's one thing about our connection that feels special to you?",
+      "prompt": "What makes what we have different from other relationships in your life?"
+    },
+    {
+      "id": 8,
+      "time": "21:00",
+      "timeLabel": "Late Night - 9 PM",
+      "category": "Future Dreams",
+      "question": "If we could spend a perfect day together in the future, what would we do?",
+      "prompt": "Walk me through the day from morning to night - no detail is too small."
+    },
+    {
+      "id": 9,
+      "time": "23:00",
+      "timeLabel": "Before Midnight - 11 PM",
+      "category": "Reflection",
+      "question": "How do you feel about us after today's journey?",
+      "prompt": "Reflect on what you've learned, felt, and discovered throughout this day."
+    }
+  ]
+}
