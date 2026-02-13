@@ -8,7 +8,7 @@
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Textarea } from "@/components/ui/textarea";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Heart, Check } from "lucide-react";
 
 interface QuestionCardProps {
@@ -41,6 +41,17 @@ export function QuestionCard({
   const [answerBubu, setAnswerBubu] = useState(savedAnswerBubu || "");
   const [answerBby, setAnswerBby] = useState(savedAnswerBby || "");
   const [isEditing, setIsEditing] = useState(!isAnswered);
+
+  // Update local state when saved answers change (e.g., after loading from database)
+  useEffect(() => {
+    setAnswerBubu(savedAnswerBubu || "");
+    setAnswerBby(savedAnswerBby || "");
+  }, [savedAnswerBubu, savedAnswerBby]);
+
+  // Update editing state when isAnswered changes
+  useEffect(() => {
+    setIsEditing(!isAnswered);
+  }, [isAnswered]);
 
   const handleSave = () => {
     if (answerBubu.trim() || answerBby.trim()) {
